@@ -1,3 +1,7 @@
 body {
     background-color: #7FDBFF;
 }
+
+.word-count {
+    margin: 25px;
+}

@@ -16,7 +16,7 @@ module.exports = {
   
   plugins: [
     new UglifyJsPlugin({ sourceMap: true }),
-    new UglifyJsPlugin(),
+    // new UglifyJsPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Ping Pong',
